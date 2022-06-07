@@ -1,0 +1,148 @@
+/* ___  _____    
+.'/,-Y"     "~-.  
+l.Y             ^.           
+/\               _\_  
+i            ___/"   "\ 
+|          /"   "\   o !   
+l         ]     o !__./   
+\ _  _    \.___./    "~\  
+ X \/ \            ___./  
+( \ ___.   _..--~~"   ~`-.  
+ ` Z,--   /               \    
+   \__.  (   /       ______) 
+     \   l  /-----~~" /   
+      Y   \          / 
+      |    "x______.^ 
+      |           \    
+      |            \ */
+
+
+/* Importações */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/* Configs gerais */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.row .col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon {
+    width: 30px;
+}
+
+/* End configs gerais */
+
+
+
+
+/* Menu */
+
+header {
+    position: fixed;
+    width: 100%;
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+ul li {
+    margin: 10px;
+}
+
+/* End menu */
+
+
+
+/* Banner */
+
+.banner {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right ,#647DEE, #7F53AC);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.col-left h1 {
+    color: white;
+    font-size: 60px;
+}
+
+.col-left h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* End header */
+
+
+/* Divisor de forma */
+
+.custom-shape-divider-bottom-1654618315 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1654618315 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 113px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1654618315 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* End Divisor de forma */
+
+/* Main */
+
+.container {
+    height: 500px;
+}
