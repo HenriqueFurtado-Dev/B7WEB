@@ -31,7 +31,7 @@ html, body {
     background-color: white;
 }
 
-h1, p {
+h1, h2, h3, h4, p {
     margin: 0;
     padding: 0;
 }
@@ -51,6 +51,7 @@ h1, p {
 
 .icon {
     width: 30px;
+    fill: white;
 }
 
 /* End configs gerais */
@@ -61,9 +62,12 @@ h1, p {
 /* Menu */
 
 header {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 
 ul li {
@@ -75,9 +79,12 @@ ul {
     margin: 0;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: purple;
+    background-color: white;
     text-transform: uppercase;
     padding: 5px 0;
+    width: 400px;
+    border-radius: 50px 20px 52px 22px;
 }
 
 ul li {
@@ -144,5 +151,61 @@ ul li {
 /* Main */
 
 .container {
-    height: 500px;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    font-size: 42px;
+    color:#647DEE; 
+}
+
+.container p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.img-work {
+    width: 150px;
+    margin: 20px;
+}
+
+/* End Main */
+
+/* Footer */
+
+footer {
+    height: 50px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div {
+    background-image: linear-gradient(#647DEE, #7F53AC);
+    width: 600px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    flex-direction: column;
+}
+
+footer div p {
+    color: rgb(230, 230, 230);
+}
+
+footer div h4 {
+    font-size: 30px;
+    color: white;
 }
